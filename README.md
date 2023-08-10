@@ -25,15 +25,15 @@ The output then displays as such:
 
 The best way to analyze the output is to take j and k, since i is implied. 
 
+                            4= 5-1     k= "*" * 1
+                            3= 5-2     k= "*" * 2
+                            2= 5-3     k= "*" * 3
+                            1= 5-2     k= "*" * 4
+                            0= 5-5     k= "*" * 5
+
                            j=4      *     k=1 (see below for k)
                             j=3    *  *   k=2
                             j=2  *  *  *  k=3
                           j=1   *  *  *  *  k=4
-                         j=0   *  *  *  *  *  k=5
-                            
-4= 5-1     k= "*" * 1
-3= 5-2     k= "*" * 2 
-2= 5-3     k= "*" * 3
-1= 5-2     k= "*" * 4
-0= 5-5     k= "*" * 5
+                         j=0   *  *  *  *  *  k=5   
 
