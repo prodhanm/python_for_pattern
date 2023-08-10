@@ -8,12 +8,12 @@ The third inner loop parallels the first nested loop, but is not the nested for 
 
 Here is a breakdown of the code via a conceptual design:
 
-iteration   |  i=(range(1,6))  |  j=(5-i)  | k=("*" * i)
-    1               1             4= 5-1     k= "*" * 1
-    2               2             3= 5-2     k= "*" * 2    
-    3               3             2= 5-3     k= "*" * 3
-    4               4             1= 5-2     k= "*" * 4
-    5               5             0= 5-5     k= "*" * 5
+        iteration   |  i=(range(1,6))  |  j=(5-i)  | k=("*" * i)
+            1               1             4= 5-1     k= "*" * 1
+            2               2             3= 5-2     k= "*" * 2    
+            3               3             2= 5-3     k= "*" * 3
+            4               4             1= 5-2     k= "*" * 4
+            5               5             0= 5-5     k= "*" * 5
 
 The output then displays as such:
 
